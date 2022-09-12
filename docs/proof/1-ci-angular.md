@@ -93,7 +93,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }} 
 ```
 
-I have also provided the workflow with an if-expression. This will guarantee that these Docker actions will only happen if my previous workflow (the building and testing of the frontend application) was successfull. This way, I won't publish a faulty image to my DockerHub.
+I have also provided the workflow with an if-expression. This will guarantee that these Docker actions will only happen if my previous workflow (the building and testing of the frontend application) was successful. This way, I won't publish a faulty image to my DockerHub.
 
 The final product looks something like this, and can be run from my Docker Desktop application, or from any terminal.
 
