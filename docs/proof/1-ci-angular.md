@@ -92,6 +92,7 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }} 
 ```
+*Docker implementation as of September 12th 2022. See the current workflows [here](https://github.com/tick-github/tick-frontend/tree/main/.github/workflows).*
 
 I have also provided the workflow with an if-expression. This will guarantee that these Docker actions will only happen if my previous workflow (the building and testing of the frontend application) was successful. This way, I won't publish a faulty image to my DockerHub.
 
