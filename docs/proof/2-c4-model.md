@@ -7,6 +7,7 @@
   - [Intro](#intro)
   - [User Stories](#user-stories)
   - [C4 Model](#c4-model)
+  - [Feedback](#feedback)
   - [References](#references)
 
 ## Intro
@@ -52,8 +53,14 @@ With these 4 main components in mind, I started formulating the user stories.
 
 To visualize these core components, I made use of the C4 model. The C4 model was created as a way to help software development teams describe and communicate software architecture. I decided the visualize the second layer, the container layer.
 
+*Edit September 19 2022:* The Accounts API is most likely redundant, see [here](#feedback).
+
 ![C4 Model](images/2-c4-model-page2.png)
 *A screenshot of the container layer of* Tick!. *This shot was taken on September 19 2022.*
+
+## Feedback
+
+After reevaluating the C4 model, the Accounts API is most likely redundant. As a company, we do not want so store unnecessary user data, to comply with the European Union's GDPR rulings. The unique identifier tied to your Google Account can be used as a primary key in many of the internal datastores. We do not need to store names or email addresses.
 
 ## References
 [The C4 model for visualising software architecture.](https://web.archive.org/web/20220906050057/https://c4model.com/) (Archived - September 6 2022)
