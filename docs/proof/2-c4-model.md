@@ -2,7 +2,12 @@
 
 ## Table of Contents
 
-- [C4 Model](#c4-model)
+- [User Stories and C4 Model](#user-stories-and-c4-model)
+  - [Table of Contents](#table-of-contents)
+  - [Intro](#intro)
+  - [User Stories](#user-stories)
+  - [C4 Model](#c4-model)
+  - [References](#references)
 
 ## Intro
 
@@ -18,10 +23,28 @@ At the start of the project, I had to come up with an idea, and individual user 
 With these 4 main components in mind, I started formulating the user stories.
 
 1.  As a **student**, I want to **see the weather**.
+    *  The default location is "Eindhoven, The Netherlands".
+    *  The student needs to be able to change the location by typing a new one in.
+    *  The student needs to be able to change the location by GPS location data. 
 2.  As a **student**, I want to **see my upcoming appointments**.
+    *   A quick overview of the upcoming 5 (five) appointments needs to be shown on the widget.
+    *   The student can interact with each of the five appointments by clicking on it to reveal detailed information about the appointment
+    *   There needs to be a shortcut to the student's Google Calendar.
 3.  As a **student**, I want to **personalize my application theme**.
-4.  As a **student**, I want to **change the application language**.
-5.  As a **student**, I want to want to be able to **view and change the core application settings** in a single, clear menu.
+    *   By pressing the 'customize' icon on the dashboard, smaller customize icons should appear on each tile.
+    *   By navigating the settings menu, the student should be able to select from a number of themes.
+    *   The student should also be able to enter their own color, by selecting it from a color wheel or sliding bar.
+    *   Both the tile color and background color should be customizable.
+    *   These settings should be saved in the database, linked to the student.
+5.  As a **student**, I want to **change the application language**.
+    *   During the login process, the language is defaulted to English.
+    *   In the settings menu, the user should be able to choose between English, Spanish, French and Chinese.
+    *   The choice of language should be stored in the database, linked to the student.
+6.  As a **student**, I want to want to be able to **view and change the core application settings** in a single, clear menu.
+    *   On the side, there should be a settings icon to navigate to the settings menu.
+    *   The student should be able to change their language preferences.
+    *   The student should be able to change their theme.
+    *   The student should be able to change the tile color and background color - overriding the theme settings.
 
 *This list of user stories is not final and will be subject to change. This is a snapshot from September 19, 2022.*
 
