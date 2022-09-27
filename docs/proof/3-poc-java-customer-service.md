@@ -10,6 +10,7 @@
     - [The controller](#the-controller)
     - [The service and repository](#the-service-and-repository)
   - [API Gateway](#api-gateway)
+- [Demo](#demo)
   - [References](#references)
 
 ## Intro
@@ -154,6 +155,48 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
 ```
+
+# Demo
+
+Firstly, you should run `docker compose up --build` inside the project root (where `docker-compose.yml` is located). This will start the PostgreSQL database and user interface.
+
+Secondly, we start out by running the Eureka Server application. Following that, you should start up the API gateway and the customer API.
+
+Once everything is running, head over to http://localhost:8761 to verify whether the services are all running. You should see these instances running: (either on `localhost` or on `host.docker.internal`)
+
+![Eureka Instances](images/3-demo1.png)
+
+Start up your favorite API platform. In this demo, I will be using Postman. Make two POST-requests to http://localhost:8000/api/v1/customers (the gateway address + the controller pathing for the customer API) containing two dummy customers.
+
+```json
+{
+  "firstName": "Harold",
+  "lastName": "Davidson",
+  "emailAddress": "h.davidson@gmail.com"
+}
+and
+{
+  "firstName": "Lilith",
+  "lastName": "Delcroix",
+  "emailAddress": "l.delcroix@gmail.com"
+}
+```
+
+You should get a status 200-OK response from both POST-requests.
+
+In your webbrowser, go to http://localhost:5050 and login with `password` if it prompts you. Head over to `servers>..>databases>customer>schemas>public>tables` and you should see a customer table. Right click that table and select `Query Tool`. Run the query `SELECT * FROM customer`.
+
+You will see the data we had sent to the API in our POST-requests earlier.
+
+![Database table](images/3-demo2.png)
+
+Go back to Postman and send a GET-request to http://localhost:8000/api/v1/customers/all. You should get a 200OK response, and the data we posted earlier:
+
+![GET response](images/3-demo3.png)
+
+
+
+
 
 ## References
 
