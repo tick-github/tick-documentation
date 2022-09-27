@@ -24,6 +24,7 @@ For a complete list of the learning outcomes and their explanation as of Septemb
 Below is a table containing all of my proof, with a link to further explanation.
 
 | Explanation | Type | Learning Outcome | Link |
-|:------------|:-----|:-----------------|:-----|
+|:------------|:-----|:-----------------|:----:|
 | A CI implementation an Angular frontend, complete with DockerHub deployment. | Implementation | [CI/CD](dict/learning-outcomes.md#cicd) | [🔗](docs/proof/1-ci-angular.md) |
 | A user-story set and a C4-model showing the desired architecture of my stack. | Design | [Requirements and Design](dict/learning-outcomes.md#requirements-and-design) | [🔗](docs/proof/2-c4-model.md) |
+| A Java Springboot project with a Customer service, Netflix Eureka support and Spring API Gateway implementation. | Proof of Concept | N/A | [🔗](docs/proof/3-poc-java-customer-service.md) |
