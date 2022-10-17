@@ -31,3 +31,4 @@ Below is a table containing all of my proof, with a link to further explanation.
 | A dockerized Java Spring Cloud implementation, a continuation of [this](docs/proof/3-poc-java-customer-service.md) POC. | Proof of Concept | [Web Application](dict/learning-outcomes.md#web-application) (Architecture) | [🔗](docs/proof/4-poc-dockerized-java-customer-services.md) |
 | Agile methodology in a group project | | [Agile Methodology](dict/learning-outcomes.md#agile-methodology) | [🔗](docs/proof/5-agile-group-project.md) |
 | Unit Testing in a backend ASP.NET API | Implementation | [Software Quality](dict/learning-outcomes.md#software-quality) | [🔗](docs/proof/6-unit-test-in-aspnet-api.md) |
+| Unit Testing in an Angular SPA | Implementation | [Software Quality](dict/learning-outcomes.md#software-quality) | [🔗](/docs/proof/7-unit-test-in-angular.md)
