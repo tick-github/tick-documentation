@@ -110,12 +110,12 @@ The `CreateOrder` endpoint (which calls the repository's `AddOrder`) will have a
 
 ```cs
 /* setup */
-private readonly Mock<IOrderManager> _mockOrderRepository;
+private readonly Mock<IOrderRepository> _mockOrderRepository;
 private readonly OrderController _orderController;
 
 public OrderControllerTests() {
-    _mockOrderRepository = new Mock<IOrderManager>();
-    _orderController = new OrderController(_mockOrderManager.Object);
+    _mockOrderRepository = new Mock<IOrderRepository>();
+    _orderController = new OrderController(_mockOrderRepository.Object);
 }
 /* setup end */
 
