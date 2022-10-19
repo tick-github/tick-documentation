@@ -7,7 +7,7 @@
 
 ## Intro
 
-*This POC's source code can be found [here](https://github.com/tick-github/poc-springboot-docker).*
+*This POC's source code can be found [here](https://github.com/tick-github/poc-springboot-docker), and is a continuation of [this proof of concept](3-poc-java-customer-service.md).*
 
 This proof of concept is a continuation of the above-mentioned POC. I wanted to experiment with dockerizing all of the microservice components. This resulted in a complete package of:
 
