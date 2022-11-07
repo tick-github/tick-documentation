@@ -11,7 +11,7 @@
 
 ## Intro
 
-This research document will mainly focus about microservice architectures, the main problem of service discovery, and the solution Netflix Eureka provides for a Java stack.
+This research document will mainly focus on microservice architectures, the main problem of service discovery, and the solution Netflix Eureka provides for a Java stack.
 
 The problem will first be laid out and explained, which will be followed by sub-questions, finally leading up to a proof of concept with the soluton integrated into it.
 
