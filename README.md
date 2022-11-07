@@ -29,8 +29,8 @@ Below is a table containing all of my proof, with a link to further explanation.
 | A user-story set and a C4-model showing the desired architecture of my stack. | Design | [Requirements and Design](dict/learning-outcomes.md#requirements-and-design) | [🔗](docs/proof/2-c4-model.md) | 
 | A Java Springboot project with a Customer service, Netflix Eureka support and Spring API Gateway implementation. | Proof of Concept | [Web Application](dict/learning-outcomes.md#web-application) (Architecture) | [🔗](docs/proof/3-poc-java-customer-service.md) |
 | A dockerized Java Spring Cloud implementation, a continuation of [this](docs/proof/3-poc-java-customer-service.md) POC. | Proof of Concept | [Web Application](dict/learning-outcomes.md#web-application) (Architecture) | [🔗](docs/proof/4-poc-dockerized-java-customer-services.md) |
-| A microservice architecture in Java with Eureka. | Research | DOT research requirement Fontys | [🔗](docs/proof/4a-dot-research-microservices.md) |
+| How do I implement a microservices architecture in Java? | Research | DOT research requirement Fontys | [🔗](docs/proof/4a-dot-research-microservices.md) |
 | Agile methodology in a group project | | [Agile Methodology](dict/learning-outcomes.md#agile-methodology) | [🔗](docs/proof/5-agile-group-project.md) |
 | Unit Testing in a backend ASP.NET API | Implementation | [Software Quality](dict/learning-outcomes.md#software-quality) | [🔗](docs/proof/6-unit-test-in-aspnet-api.md) |
 | Unit Testing in an Angular SPA | Implementation | [Software Quality](dict/learning-outcomes.md#software-quality) | [🔗](/docs/proof/7-unit-test-in-angular.md) |
-| OAuth2: A secure way to manage user states | Research | DOT research requirement Fontys | [🔗](/docs/proof/8-oauth.md) |
+| How can I avoid storing sensitive user data? | Research | DOT research requirement Fontys | [🔗](/docs/proof/8-oauth.md) |
