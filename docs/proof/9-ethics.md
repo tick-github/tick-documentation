@@ -114,11 +114,11 @@ In a team environment, we work with known definitions of done. We use tooling, s
 
 ## Do you foresee ethical conflicts caused by your software? What kind of?
 
-No.
+No. As it stands now, we do not plan to store identifiable user data. If, for whatever reason, this software takes off and becomes popular, and attracts a larger customer base and development team, you could see the handling of user data as a possible ethical conflict. It is then paramount that the team adheres to the GDPR rulings, and do not store unnecessary user data.
 
 ## Can you do something to avoid or minimize these conflicts? 
 
-No.
+No. As it stands now, we do not plan to store identifiable user data. If the above scenario happens, one possible solution would be regulation and self-regulation.
 
 ## References
 
