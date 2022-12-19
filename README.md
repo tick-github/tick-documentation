@@ -30,9 +30,10 @@ Below is a table containing all of my proof, with a link to further explanation.
 | A Java Springboot project with a Customer service, Netflix Eureka support and Spring API Gateway implementation. | Proof of Concept | [Web Application](dict/learning-outcomes.md#web-application) (Architecture) | [🔗](docs/proof/3-poc-java-customer-service.md) |
 | A dockerized Java Spring Cloud implementation, a continuation of [this](docs/proof/3-poc-java-customer-service.md) POC. | Proof of Concept | [Web Application](dict/learning-outcomes.md#web-application) (Architecture) | [🔗](docs/proof/4-poc-dockerized-java-customer-services.md) |
 | How do I implement a microservices architecture in Java? | Research | DOT research requirement Fontys | [🔗](docs/proof/4a-dot-research-microservices.md) |
-| Agile methodology in a group project | | [Agile Methodology](dict/learning-outcomes.md#agile-methodology) | [🔗](docs/proof/5-agile-group-project.md) |
+| Agile methodology in a group project | Research and Analysis | [Agile Methodology](dict/learning-outcomes.md#agile-methodology) | [🔗](docs/proof/5-agile-group-project.md) |
 | Unit Testing in a backend ASP.NET API | Implementation | [Software Quality](dict/learning-outcomes.md#software-quality) | [🔗](docs/proof/6-unit-test-in-aspnet-api.md) |
 | Unit Testing in an Angular SPA | Implementation | [Software Quality](dict/learning-outcomes.md#software-quality) | [🔗](/docs/proof/7-unit-test-in-angular.md) |
 | How can I avoid storing sensitive user data? | Research | DOT research requirement Fontys | [🔗](/docs/proof/8-oauth.md) |
 | Analysis: Ethics in Software Development | Analysis | [Cultural Differences and Ethics](dict/learning-outcomes.md#cultural-differences-and-ethics) | [🔗](docs/proof/9-ethics.md) |
-| The user flow when logging in and changing settings. | Analysis | [Web Application](dict/learning-outcomes.md#web-application) | [🔗](docs/proof/10-user-flow.md) |
+| The user flow when logging in and changing settings. | Implementation | [Web Application](dict/learning-outcomes.md#web-application) | [🔗](docs/proof/10-user-flow.md) |
+| Loggin user interaction and API events. | Implementation | [Software Quality](dict/learning-outcomes.md##../docs/proof/11-logger.md) | [🔗](docs/proof/11-logger.md) |
