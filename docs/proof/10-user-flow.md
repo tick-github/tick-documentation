@@ -67,23 +67,24 @@ There are a number of flow options when the user is prompted for an apply:
 apply() {
     if (confirm("Are you sure you want to update your coloring scheme?")) {
         this.settingsApi.updateSettings({
-        primaryColor: this.primaryColor,
-        secondaryColor: this.secondaryColor,
-        tertiaryColor: this.tertiaryColor,
-        locale: this.userSettings.locale,
-        weatherCity: this.userSettings.weatherCity
-    } as SettingsModel)
-    .then((successfulResponse) => {
-        this.userSettings = successfulResponse.data as SettingsModel
-    })
-    .catch(() => {
-        this.userSettings = SettingsModelBuilder.getDefault()
-    })
-    .finally(() => {
-        this.settingsSessionStorage.setSettings(this.userSettings);
-        this.reloadPage();
-    });
-}}
+            primaryColor: this.primaryColor,
+            secondaryColor: this.secondaryColor,
+            tertiaryColor: this.tertiaryColor,
+            locale: this.userSettings.locale,
+            weatherCity: this.userSettings.weatherCity
+        } as SettingsModel)
+        .then((successfulResponse) => {
+            this.userSettings = successfulResponse.data as SettingsModel
+        })
+        .catch(() => {
+            this.userSettings = SettingsModelBuilder.getDefault()
+        })
+        .finally(() => {
+            this.settingsSessionStorage.setSettings(this.userSettings);
+            this.reloadPage();
+        });
+    }
+}
 ```
 
 These conditions are tested synchronously. This poses difficulty when testing asynchronous code, like the Settings API calls. To simulate an async environment, we use Angular's `fakeAsync` and `tick()` functionality. 
