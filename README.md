@@ -35,3 +35,4 @@ Below is a table containing all of my proof, with a link to further explanation.
 | Unit Testing in an Angular SPA | Implementation | [Software Quality](dict/learning-outcomes.md#software-quality) | [🔗](/docs/proof/7-unit-test-in-angular.md) |
 | How can I avoid storing sensitive user data? | Research | DOT research requirement Fontys | [🔗](/docs/proof/8-oauth.md) |
 | Analysis: Ethics in Software Development | Analysis | [Cultural Differences and Ethics](dict/learning-outcomes.md#cultural-differences-and-ethics) | [🔗](docs/proof/9-ethics.md) |
+| The user flow when logging in and changing settings. | Analysis | [Web Application](dict/learning-outcomes.md#web-application) | [🔗](docs/proof/10-user-flow.md) |
