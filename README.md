@@ -33,7 +33,7 @@ Below is a table containing all of my proof, with a link to further explanation.
 | Explanation | Type | Learning Outcome | Link |
 |:------------|:-----|:-----------------|:----:|
 | A CI implementation an Angular frontend, complete with DockerHub deployment. | Implementation | [CI/CD](dict/learning-outcomes.md#cicd) | [🔗](docs/proof/1-ci-angular.md) |
-| A user-story set and a C4-model showing the desired architecture of my stack. | Design | [Requirements and Design](dict/learning-outcomes.md#requirements-and-design) | [🔗](docs/proof/2-c4-model.md) | 
+| A user-story set and a C4-model showing the desired architecture of my stack. | Design and Process | [Requirements and Design](dict/learning-outcomes.md#requirements-and-design) | [🔗](docs/proof/2-c4-model.md) | 
 | A Java Springboot project with a Customer service, Netflix Eureka support and Spring API Gateway implementation. | Proof of Concept | [Web Application](dict/learning-outcomes.md#web-application) (Architecture) | [🔗](docs/proof/3-poc-java-customer-service.md) |
 | A dockerized Java Spring Cloud implementation, a continuation of [this](docs/proof/3-poc-java-customer-service.md) POC. | Proof of Concept | [Web Application](dict/learning-outcomes.md#web-application) (Architecture) | [🔗](docs/proof/4-poc-dockerized-java-customer-services.md) |
 | How do I implement a microservices architecture in Java? | Research | DOT research requirement Fontys | [🔗](docs/proof/4a-dot-research-microservices.md) |
@@ -42,9 +42,10 @@ Below is a table containing all of my proof, with a link to further explanation.
 | Unit Testing in an Angular SPA | Implementation | [Software Quality](dict/learning-outcomes.md#software-quality) | [🔗](/docs/proof/7-unit-test-in-angular.md) |
 | How can I avoid storing sensitive user data? | Research | DOT research requirement Fontys | [🔗](/docs/proof/8-oauth.md) |
 | Analysis: Ethics in Software Development | Analysis | [Cultural Differences and Ethics](dict/learning-outcomes.md#cultural-differences-and-ethics) | [🔗](docs/proof/9-ethics.md) |
-| The user flow when logging in and changing settings. | Implementation | [Web Application](dict/learning-outcomes.md#web-application) | [🔗](docs/proof/10-user-flow.md) |
+| The user flow when logging in and changing settings. | Implementation, Design and Process | [Web Application](dict/learning-outcomes.md#web-application)/[Requirements and Design](dict/learning-outcomes.md#requirements-and-design)/[Business Processes](dict/learning-outcomes.md#business-processes) | [🔗](docs/proof/10-user-flow.md) |
 | Logging user interaction and API events. | Implementation | [Software Quality](dict/learning-outcomes.md##../docs/proof/11-logger.md) | [🔗](docs/proof/11-logger.md) |
 | The API contract and documentation. | Design | [Requirements and Design](dict/learning-outcomes.md#requirements-and-design) | [🔗](docs/proof/12-apidocs.md) |
+| The Agile business process within our GP | Process | [Business Process](dict/learning-outcomes.md#business-processes) | [🔗](docs/proof/13-business-process.md) |
 
 # Self-assessment
 
@@ -214,7 +215,7 @@ The proficiency rating I will give myself are as they are described on [CANVAS](
           I have started the individual project by formulation a project idea. I then started to design the user stories, and an accompanying C4-model of the project. The same was done for the group project.
         </p>
         <p>
-          The Settings API was made with an API contract in mind. The API contract is presented in <code>yml</code> format. See <a>here</a>.
+          The Settings API was made with an API contract in mind. The API contract is presented in <code>yml</code> format. See <a href="docs/12-apidocs.md">here</a>.
         </p>
         <p>
           During the group projects, after having reviewed the sprint with the stakeholders, we kept refining the user stories and acceptation criteria based on the feedback they gave us. The C4-Model remained roughly the same throughout the project.
