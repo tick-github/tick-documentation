@@ -44,6 +44,7 @@ Below is a table containing all of my proof, with a link to further explanation.
 | Analysis: Ethics in Software Development | Analysis | [Cultural Differences and Ethics](dict/learning-outcomes.md#cultural-differences-and-ethics) | [🔗](docs/proof/9-ethics.md) |
 | The user flow when logging in and changing settings. | Implementation | [Web Application](dict/learning-outcomes.md#web-application) | [🔗](docs/proof/10-user-flow.md) |
 | Logging user interaction and API events. | Implementation | [Software Quality](dict/learning-outcomes.md##../docs/proof/11-logger.md) | [🔗](docs/proof/11-logger.md) |
+| The API contract and documentation. | Design | [Requirements and Design](dict/learning-outcomes.md#requirements-and-design) | [🔗](docs/proof/12-apidocs.md) |
 
 # Self-assessment
 
@@ -70,6 +71,9 @@ The proficiency rating I will give myself are as they are described on [CANVAS](
         </p>
         <p>
           The frontend Angular web-app is built with components and single-responsibility in mind. All calls to the API are done via their own specific service. Logging in is done via a <code>Google API</code> service. All interaction with the Session Storage is wrapped in its own service to be able to control the flow. The GoogleAPI service could do with some improvements, namely by moving its Gmail functionality to a separate Gmail service.
+        </p>
+        <p>
+          All calls so internal and external APIs make use of Angular's Interceptor functionality that modify the request and add in the necessary authentication tokens and/or headers, depending on which resource is being requested.
         </p>
         <p>
           All services are injected via Angular's dependency injection.
@@ -188,9 +192,6 @@ The proficiency rating I will give myself are as they are described on [CANVAS](
         <p>
           See <a href="docs/9-ethics.md">this article</a>.
         </p>
-        <p>
-          In my individual project, I could have implemented Agile a bit better. I could, for example have switched to Jira for the issue tracking, and I could have adhered better to the 'sprint system'. I have been very flexible in implementing the user stories, so you could see that as a plus.
-        </p>
     </td>
   </tr>
 </table>
@@ -211,6 +212,9 @@ The proficiency rating I will give myself are as they are described on [CANVAS](
     <td>
         <p>
           I have started the individual project by formulation a project idea. I then started to design the user stories, and an accompanying C4-model of the project. The same was done for the group project.
+        </p>
+        <p>
+          The Settings API was made with an API contract in mind. The API contract is presented in <code>yml</code> format. See <a>here</a>.
         </p>
         <p>
           During the group projects, after having reviewed the sprint with the stakeholders, we kept refining the user stories and acceptation criteria based on the feedback they gave us. The C4-Model remained roughly the same throughout the project.
