@@ -14,6 +14,7 @@
   - [CI/CD](#cicd)
   - [Cultural Differences and Ethics](#cultural-differences-and-ethics)
   - [Requirements and Design](#requirements-and-design)
+  - [Business Processes](#business-processes)
 
 # Intro
 
@@ -222,6 +223,27 @@ The proficiency rating I will give myself are as they are described on [CANVAS](
         </p>
         <p>
           In my individual projects, and admittedly the GP as well, I could have formulated my user stories better. I should have split them up more and made them testable by formulating very concise acceptation criteria with clear data to base the tests upon. This will be improved upon with future projects.
+        </p>
+    </td>
+  </tr>
+</table>
+
+## Business Processes
+
+<table>
+  <tr>
+    <th><strong>Learning Outcome</strong></th>
+    <td>"You analyze and describe simple business processes that are related to your project"</td>
+  </tr>
+  <tr>
+    <th><strong>Proficiency Rating</strong></th>
+    <td>Proficient (4)</td>
+  </tr>
+  <tr>
+    <th><strong>Explanation</strong></th>
+    <td>
+        <p>
+          See <a href="docs/proof/10-user-flow.md">here</a> and <a href="docs/proof/13-business-process.md">here</a>.
         </p>
     </td>
   </tr>
