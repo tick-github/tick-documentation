@@ -15,6 +15,7 @@
   - [Cultural Differences and Ethics](#cultural-differences-and-ethics)
   - [Requirements and Design](#requirements-and-design)
   - [Business Processes](#business-processes)
+  - [Professional](#professional)
 
 # Intro
 
@@ -233,7 +234,7 @@ The proficiency rating I will give myself are as they are described on [CANVAS](
 <table>
   <tr>
     <th><strong>Learning Outcome</strong></th>
-    <td>"You analyze and describe simple business processes that are related to your project"</td>
+    <td>"You analyze and describe simple business processes that are related to your project."</td>
   </tr>
   <tr>
     <th><strong>Proficiency Rating</strong></th>
@@ -244,6 +245,39 @@ The proficiency rating I will give myself are as they are described on [CANVAS](
     <td>
         <p>
           See <a href="docs/proof/10-user-flow.md">here</a> and <a href="docs/proof/13-business-process.md">here</a>.
+        </p>
+    </td>
+  </tr>
+</table>
+
+## Professional
+
+<table>
+  <tr>
+    <th><strong>Learning Outcome</strong></th>
+    <td>"You act in a professional manner during software development and learning."</td>
+  </tr>
+  <tr>
+    <th><strong>Proficiency Rating</strong></th>
+    <td>Advanced (5)</td>
+  </tr>
+  <tr>
+    <th><strong>Explanation</strong></th>
+    <td>
+        <p>
+          As a team, and to a smaller degree in my IP, I work with the Agile Methodology to work together. See <a href="docs/proof/5-agile-group-project.md">here</a>.
+        </p>
+        <p>
+          In GP, I acted as the communications representative of the group. I planned the sprint review dates and informed the group of my communication with Mediaan.
+        </p>
+        <p>
+          In GP, we made a Code of Conduct to which we adhered to whenever there was a disagreements.
+        </p>
+        <p>
+          As a group we managed the stakeholders' expectations by giving them a sneak peak before the sprint review. During the sprint, we had regular contact with the stakeholders when we had any questions or confusions.
+        </p>
+        <p>
+          As a group, we were able to say no to our stakeholder. We made it clear when we thought it would be impossible to complete a certain set of requirements/user stories. One notable 'no' was at the end when the product owner demanded every user story to be completely done. In hindsight we think that this was a test by Mediaan to see if we were able to say no.
         </p>
     </td>
   </tr>
