@@ -279,6 +279,9 @@ The proficiency rating I will give myself are as they are described on [CANVAS](
         <p>
           As a group, we were able to say no to our stakeholder. We made it clear when we thought it would be impossible to complete a certain set of requirements/user stories. One notable 'no' was at the end when the product owner demanded every user story to be completely done. In hindsight we think that this was a test by Mediaan to see if we were able to say no.
         </p>
+        <p>
+          I regularly (at least once every two weeks) went to the teacher asking for feedback. This feedback was posted on Feedpulse. This moment was also used as a "milestone" to inform the teacher of my doings and experience, to convince them that I am proficient enough to go to the next semester.
+        </p>
     </td>
   </tr>
 </table>
