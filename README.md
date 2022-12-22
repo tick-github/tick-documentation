@@ -191,7 +191,7 @@ The proficiency rating I will give myself are as they are described on [CANVAS](
     <th><strong>Explanation</strong></th>
     <td>
         <p>
-          See <a href="docs/9-ethics.md">this article</a>.
+          See <a href="docs/proof/9-ethics.md">this article</a>.
         </p>
     </td>
   </tr>
