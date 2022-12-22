@@ -5,7 +5,7 @@
   - [Flowcharts](#flowcharts)
     - [The login flow while logging in](#the-login-flow-while-logging-in)
   - [The flow of changing a user's settings manually](#the-flow-of-changing-a-users-settings-manually)
-  - [Unit testing in frontend](#unit-testing-in-frontend)
+  - [Unit testing these flows](#unit-testing-these-flows)
 
 ## Intro
 
@@ -51,7 +51,7 @@ The application will then send a request to the Settings API with a modified aut
 
 If the API responds with a `Promise<SettingsModel>` resolving successfully, the settings will be applied in the session storage. If not, a default set of settings will be saved. The latter will act as a fallback, as this scenario should not happen normally.
 
-## Unit testing in frontend
+## Unit testing these flows
 
 Both the `Settings Tile` component and the services are extensively tested.
 
